@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dk.easj.anbo.clickeventhandling.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickXml"
+        android:text="Handler name in XML layout file" />
+
+    <Button
+        android:id="@+id/button_anonymous_inner_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anonymous inner class" />
+
+    <Button
+        android:id="@+id/button_named_inner_classs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Named inner class" />
+
+    <Button
+        android:id="@+id/button_interface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interface to Activity" />
+
+    <EditText
+        android:id="@+id/MyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Some input, please" />
+
+    <EditText
+        android:id="@+id/MyEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="More input, please" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Different ways to attach click event handlers to buttons" />
+
+</LinearLayout>
